@@ -1,0 +1,241 @@
+body{
+	margin: 0;
+}
+.container {
+	width: 90%;
+	margin: auto;
+}
+.header-area {
+	background: #FA7F27;
+	overflow: hidden;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+	margin-top: 10px;
+	overflow: hidden;
+}.header-action {
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	color: #FFFFFF;
+	padding: 50px 0;
+}
+
+.header-action h1{
+	font-size: 32px;
+	font-weight: 700;
+}
+.header-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+	margin-top: 25px;
+}
+
+
+.header-menu ul li {
+	float: left;
+	margin-left: 10px;
+}
+
+
+
+.header-menu ul .current a,
+.header-menu ul li:hover a {
+	background: #ff006e;
+}
+.header-menu ul li a {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 7px 15px;
+	display: block;
+	border-radius: 4px;
+}
+.button {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 600;
+	padding: 15px 50px;
+	border-radius : 3px;
+}
+.header-area .button {
+	background: #b5179e;
+	border-bottom: 3px solid #f2b5d4;
+	margin: 20px 0 45px;
+	display: inline-block;
+	transition: .4s;
+}
+.header-area .button:hover {
+	border-bottom: 3px solid #457b9d;
+	background: #2c3e50;
+}
+.something-area{
+	background: #000000;
+	color: white;
+	overflow: hidden;
+	padding: 60px 0;
+	text-align: center;
+}
+.something{
+	margin-top: 50px;
+	overflow: hidden;
+}
+.something-area h2{
+	margin: 0;
+	font-size: 25px;
+	color: #FFF89A;
+}
+.something-area p{
+	color: #FFB72B;
+}
+.portfolio-item2 {
+	width: 47%;
+	float: left;
+	margin-right: 6%;
+}
+.portfolio-item2 img {
+	width: 100%;
+}
+.portfolio-item2:nth-child(2n) {
+	margin-right: 0;
+}
+/****** portfolio-area ******/
+
+.portfolio-area {
+	background: #00f5d4;
+	overflow: hidden;
+	padding: 60px 0;
+	text-align: center;
+}
+.portfolio {
+	margin-top: 50px;
+	overflow: hidden;
+}
+.portfolio-item1 {
+	width: 47%;
+	float: left;
+	margin-right: 6%;
+}
+.portfolio-item1 img {
+	width: 100%;
+}
+.portfolio-item1:nth-child(2n) {
+	margin-right: 0;
+}
+
+.portfolio-item1 h4 {
+	color: #393939;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 4px;
+}
+
+.portfolio-area .button {
+	background: #03045e;
+	padding: 20px 30px;
+	border-bottom: 3px solid #9b5de5;
+	margin-top: 50px;
+	display: inline-block;
+	transition: all ease .5s;
+}
+.portfolio-area .button:hover {
+	background: #463f3a;
+	border-bottom: 3px solid #FFFFFF;
+}
+.contect-area {
+	padding: 60px 0;
+	text-align: center;
+	background: #3a86ff;
+	overflow: hidden;
+}
+.contect-area .container {
+	width: 60%;
+}
+.address-form input[type="text"] {
+	margin-right: 4%;
+	float: left;
+}
+.address-form input[type="text"],
+.address-form input[type="email"] {
+	width: 48%;
+	display: block;
+	box-sizing: border-box;
+	background: #14213d;
+	border: none;
+	color: #FFFFFF;
+	padding: 2%;
+}
+.address-form textarea {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 20px 0;
+	background: #14213d;
+	border: none;
+	color: #FFFFFF;
+	padding: 2%;
+	min-height: 150px;
+
+}
+.address-form input[type="submit"] {
+	font-family: 'Titillium Web', sans-serif;
+	color: #FFFFFF;
+	background: #00f5d4;
+	border: none;
+	cursor: pointer;
+	border-bottom: 2px solid #289bc7;
+	margin-top: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 10px 40px;
+	border-radius: 3px;
+	transition-duration: 0.3s;
+}
+.address-form input[type="submit"]:hover {
+	background: #fb5607;
+	border-bottom: 2px solid #2980b9;
+}
+.address-form input[type="text"]:focus,
+.address-form input[type="email"]:focus,
+.address-form textarea:focus {
+	background: #333533;
+	transition: .3s;
+}
+.footer-area {
+	background: #283618;
+	text-transform: capitalize;
+	overflow: hidden;
+}
+
+.footer ul {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+.footer ul li {
+	display: inline;
+	padding: 5px 8px;
+}
+.footer ul li a {
+	color: #ffd60a;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	display: inline-block;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+.footer ul li:hover a {
+	color: #FFFFFF;
+	background: #7f5539;
+	padding: 10px;
+	border-radius: 10px;
+} 
